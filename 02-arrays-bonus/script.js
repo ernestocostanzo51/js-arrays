@@ -31,17 +31,14 @@ for(let i=0; i<teachers.length; i++){
 console.log(longNames)
 
 // 3. Rimuovi 'Ed' dall'array teachers
-teachers.splice(teachers[1])
-console.log(teachers)
+
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-let isFabioPresent = false;
+let isFabioPresent = true;
 for(i=0; i<teachers.length; i++){
   if(teachers[i] === 'Fabio'){
-    console.log("fabio trovato")
-    isFabioPresent = true
-    break
+    console.log(isFabioPresent, "la parola fabio è stata trovata")
     
   }
 }
